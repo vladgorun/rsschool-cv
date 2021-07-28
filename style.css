@@ -8,9 +8,9 @@
 
 .self-presentation-content {
 
-    max-width: 1024px;
+   
     margin: 0 auto;
-
+    max-width: 1024px;
     background-color: white;
 
 }
@@ -25,11 +25,11 @@
 
 }
 
-.personal > h1 {
+/* .personal > h1 {
 
     margin-top: 10px;
 
-}
+} */
 
 .personal-photo {
 
@@ -53,11 +53,13 @@
 }
 
 .personal-data,
+.skills
 .contacts {
     list-style: none;
 }
 
 .personal-data,
+.skills
 .contacts {
 
     padding: 5px;
@@ -69,3 +71,27 @@
     margin: 20px 0px 10px 0px;
 
 }
+.header > h1 { 
+
+    display:none; 
+
+}
+
+.cv-header {
+    
+    text-align: center;
+
+}
+
+.footer {
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    max-width: 1024px;
+    
+
+  }
+  
